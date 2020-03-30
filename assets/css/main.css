@@ -321,7 +321,7 @@ input, select, textarea {
 		}
 
 		.row.aln-right {
-			justify-content: flex-end;
+			justify-content: flex-start;
 		}
 
 		.row.aln-top {
