@@ -2050,13 +2050,28 @@ input, select, textarea {
 		position: relative;
 	}
 
-		
+		.image:before {
+			-moz-transition: opacity 0.2s ease-in-out;
+			-webkit-transition: opacity 0.2s ease-in-out;
+			-ms-transition: opacity 0.2s ease-in-out;
+			transition: opacity 0.2s ease-in-out;
+			background: url("images/overlay.png");
+			border-radius: 0.35em;
+			content: '';
+			display: block;
+			height: 100%;
+			left: 0;
+			opacity: 0.5;
+			position: absolute;
+			top: 0;
+			width: 100%;
+		}
 
 		.image.thumb {
 			text-align: center;
 		}
 
-			/* .image.thumb:after {
+			.image.thumb:after {
 				-moz-transition: opacity 0.2s ease-in-out;
 				-webkit-transition: opacity 0.2s ease-in-out;
 				-ms-transition: opacity 0.2s ease-in-out;
@@ -2083,12 +2098,12 @@ input, select, textarea {
 
 			.image.thumb:hover:after {
 				opacity: 1.0;
-			} */
+			}
 
-			/* .image.thumb:hover:before {
+			.image.thumb:hover:before {
 				background: url("images/overlay.png"), url("images/overlay.png");
 				opacity: 1.0;
-			} */
+			}
 
 		.image img {
 			border-radius: 0.35em;
