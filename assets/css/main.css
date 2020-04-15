@@ -2071,13 +2071,13 @@ input, select, textarea {
 			text-align: center;
 		}
 
-			.image.thumb:after {
+			/* .image.thumb:after {
 				-moz-transition: opacity 0.2s ease-in-out;
 				-webkit-transition: opacity 0.2s ease-in-out;
 				-ms-transition: opacity 0.2s ease-in-out;
 				transition: opacity 0.2s ease-in-out;
 				border-radius: 0.35em;
-				/* background: url("images/overlay.png"); */
+				background: url("images/overlay.png");
 				border: solid 3px rgba(255, 255, 255, 0.5);
 				color: #fff;
 				content: 'View';
@@ -2098,7 +2098,7 @@ input, select, textarea {
 
 			.image.thumb:hover:after {
 				opacity: 1.0;
-			}
+			} */
 
 			/* .image.thumb:hover:before {
 				background: url("images/overlay.png"), url("images/overlay.png");
