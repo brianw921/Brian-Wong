@@ -2077,7 +2077,7 @@ input, select, textarea {
 				-ms-transition: opacity 0.2s ease-in-out;
 				transition: opacity 0.2s ease-in-out;
 				border-radius: 0.35em;
-				background: url("images/overlay.png");
+				/* background: url("images/overlay.png"); */
 				border: solid 3px rgba(255, 255, 255, 0.5);
 				color: #fff;
 				content: 'View';
@@ -2100,10 +2100,10 @@ input, select, textarea {
 				opacity: 1.0;
 			}
 
-			.image.thumb:hover:before {
+			/* .image.thumb:hover:before {
 				background: url("images/overlay.png"), url("images/overlay.png");
 				opacity: 1.0;
-			}
+			} */
 
 		.image img {
 			border-radius: 0.35em;
